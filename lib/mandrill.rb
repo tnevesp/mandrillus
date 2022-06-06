@@ -6,7 +6,7 @@ require 'mandrill/errors'
 require 'mandrill/api'
 
 module Mandrill
-    class API
+    class Api
 
         attr_accessor :host, :path, :apikey, :debug, :session
 
@@ -108,7 +108,7 @@ module Mandrill
             Users.new self
         end
         def rejects()
-            Rejects.new self
+            Reject.new self
         end
         def inbound()
             Inbound.new self

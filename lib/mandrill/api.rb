@@ -421,7 +421,7 @@ module Mandrill
         end
 
     end
-    class Rejects
+    class Reject
         attr_accessor :master
 
         def initialize(master)
